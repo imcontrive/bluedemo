@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="98" viewBox="0 0 96 98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fea900;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 11px;
+        font-family: Adelle-Regular, Adelle;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#102f54"/>
+      <stop offset="1" stop-color="#030911"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_154" data-name="Group 154" transform="translate(0.333 0.19)">
+    <rect id="Rectangle_132" data-name="Rectangle 132" class="cls-1" width="96" height="98" rx="16" transform="translate(-0.333 -0.19)"/>
+    <g id="Group_147" data-name="Group 147" transform="translate(24.405 15.619)">
+      <rect id="Rectangle_134" data-name="Rectangle 134" class="cls-2" width="47" height="27" transform="translate(0.262 0.191)"/>
+      <g id="Group_144" data-name="Group 144" transform="translate(6.833 19.524)">
+        <rect id="Rectangle_135" data-name="Rectangle 135" class="cls-3" width="33" height="25" transform="translate(0.429 -0.333)"/>
+        <rect id="Rectangle_136" data-name="Rectangle 136" class="cls-2" width="27" height="19" transform="translate(3.429 2.667)"/>
+        <circle id="Ellipse_34" data-name="Ellipse 34" class="cls-3" cx="7.5" cy="7.5" r="7.5" transform="translate(9.429 3.667)"/>
+        <path id="Path_61" data-name="Path 61" class="cls-2" d="M1103.276,916.958c-.014-.017-.029-.057-.043-.057h2.02l.677-.9h-7.3l-.571.74c-.047.073-.095.068-.142.137,0,0,.978.025,1.65.045,1.614.049,2.265.34,2.516,1.242h-3.453l-.677.9h4.126v0c0,1.509-1.262,1.953-2.323,2.1l-1.482.146c-.014.333.036.64.023,1.181h0v-.136l4.23,5.186h1.944l-4.388-5.466a5.415,5.415,0,0,0,1.667-.425,3.259,3.259,0,0,0,2.082-2.557.149.149,0,0,1,0-.028h1.411l.677-.9h-2.113A2.759,2.759,0,0,0,1103.276,916.958Z" transform="translate(-1084.747 -909.943)"/>
+      </g>
+      <g id="Group_145" data-name="Group 145" transform="translate(6.833 14.667)">
+        <rect id="Rectangle_137" data-name="Rectangle 137" class="cls-3" width="33" height="24" transform="translate(0.429 -0.476)"/>
+        <rect id="Rectangle_138" data-name="Rectangle 138" class="cls-2" width="27" height="18" transform="translate(3.429 2.524)"/>
+        <ellipse id="Ellipse_35" data-name="Ellipse 35" class="cls-3" cx="7.5" cy="7" rx="7.5" ry="7" transform="translate(9.429 4.524)"/>
+        <path id="Path_62" data-name="Path 62" class="cls-2" d="M1103.276,848.959c-.014-.017-.029-.057-.043-.057h2.02l.677-.9h-7.3l-.571.74c-.047.073-.095.068-.142.137,0,0,.978.024,1.65.045,1.614.049,2.265.34,2.516,1.242h-3.453l-.677.9h4.126v0c0,1.509-1.262,1.953-2.323,2.1l-1.482.146c-.014.333.036.64.023,1.181h0v-.136l4.23,5.186h1.944l-4.388-5.466a5.413,5.413,0,0,0,1.667-.425,3.258,3.258,0,0,0,2.082-2.557.147.147,0,0,1,0-.028h1.411l.677-.9h-2.113A2.757,2.757,0,0,0,1103.276,848.959Z" transform="translate(-1084.747 -840.662)"/>
+      </g>
+      <g id="Group_146" data-name="Group 146" transform="translate(6.833 7.809)">
+        <rect id="Rectangle_139" data-name="Rectangle 139" class="cls-3" width="33" height="24" transform="translate(0.429 0.381)"/>
+        <rect id="Rectangle_140" data-name="Rectangle 140" class="cls-2" width="27" height="18" transform="translate(3.429 3.381)"/>
+        <ellipse id="Ellipse_36" data-name="Ellipse 36" class="cls-3" cx="7.5" cy="8" rx="7.5" ry="8" transform="translate(9.429 4.381)"/>
+        <path id="Path_63" data-name="Path 63" class="cls-2" d="M1103.276,782.959c-.014-.017-.029-.057-.043-.057h2.02l.677-.9h-7.3l-.571.74c-.047.073-.095.068-.142.137,0,0,.978.024,1.65.045,1.614.049,2.265.34,2.516,1.242h-3.453l-.677.9h4.126v0c0,1.509-1.262,1.953-2.323,2.1l-1.482.146c-.014.333.036.64.023,1.181h0v-.136l4.23,5.186h1.944l-4.388-5.466a5.412,5.412,0,0,0,1.667-.425,3.259,3.259,0,0,0,2.082-2.557.148.148,0,0,1,0-.028h1.411l.677-.9h-2.113A2.758,2.758,0,0,0,1103.276,782.959Z" transform="translate(-1084.747 -775.279)"/>
+      </g>
+    </g>
+    <text id="easy_withdrawal" data-name="easy 
+withdrawal" class="cls-4" transform="translate(43.667 71.81)"><tspan x="-13.409" y="0">Easy </tspan><tspan x="-30.277" y="14">Withdrawal</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98" height="98" viewBox="0 0 98 98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fea900;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        font-family: Adelle-Regular, Adelle;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#102f54"/>
+      <stop offset="1" stop-color="#030911"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_155" data-name="Group 155" transform="translate(0.191 0.19)">
+    <rect id="Rectangle_142" data-name="Rectangle 142" class="cls-1" width="98" height="98" rx="16" transform="translate(-0.191 -0.19)"/>
+    <text id="govt._compliant" data-name="govt. 
+compliant" class="cls-2" transform="translate(47.809 72.81)"><tspan x="-16.314" y="0">Govt. </tspan><tspan x="-29.622" y="15">Compliant</tspan></text>
+    <g id="Group_149" data-name="Group 149" transform="translate(28.816 15.944)">
+      <g id="Group_148" data-name="Group 148" transform="translate(4.999 9.504)">
+        <path id="Path_64" data-name="Path 64" class="cls-3" d="M1120.755,87.99c0,.311-.012.618-.036.922h-24.684c-.024-.3-.036-.611-.036-.922a11.664,11.664,0,0,1,.331-2.767,12.479,12.479,0,0,1,24.094,0A11.658,11.658,0,0,1,1120.755,87.99Z" transform="translate(-1093.383 -76)"/>
+        <rect id="Rectangle_143" data-name="Rectangle 143" class="cls-3" width="29.99" height="3.873" transform="translate(0 9.177)"/>
+      </g>
+      <rect id="Rectangle_144" data-name="Rectangle 144" class="cls-3" width="30.468" height="14.819" transform="translate(4.759 23.839)"/>
+      <rect id="Rectangle_145" data-name="Rectangle 145" class="cls-4" width="2.658" height="12.105" transform="translate(16.272 25.785)"/>
+      <rect id="Rectangle_146" data-name="Rectangle 146" class="cls-4" width="2.658" height="12.105" transform="translate(21.057 25.785)"/>
+      <rect id="Rectangle_147" data-name="Rectangle 147" class="cls-4" width="2.658" height="12.105" transform="translate(25.841 25.785)"/>
+      <rect id="Rectangle_148" data-name="Rectangle 148" class="cls-4" width="2.658" height="12.105" transform="translate(30.626 25.785)"/>
+      <rect id="Rectangle_149" data-name="Rectangle 149" class="cls-4" width="2.658" height="12.105" transform="translate(11.488 25.785)"/>
+      <rect id="Rectangle_150" data-name="Rectangle 150" class="cls-4" width="2.658" height="12.105" transform="translate(6.703 25.785)"/>
+      <rect id="Rectangle_151" data-name="Rectangle 151" class="cls-3" width="35.656" height="2.499" transform="translate(2.165 37.89)"/>
+      <rect id="Rectangle_160" data-name="Rectangle 160" class="cls-3" width="39.987" height="2.499" transform="translate(0 40.889)"/>
+      <rect id="Rectangle_152" data-name="Rectangle 152" class="cls-3" width="7.815" height="2.767" transform="translate(16.086 8.154)"/>
+      <rect id="Rectangle_153" data-name="Rectangle 153" class="cls-3" width="1.999" height="2.905" transform="translate(18.994 7.102)"/>
+      <rect id="Rectangle_154" data-name="Rectangle 154" class="cls-3" width="4.642" height="3.228" transform="translate(19.994 0.807)"/>
+      <rect id="Rectangle_156" data-name="Rectangle 156" class="cls-3" width="0.774" height="7.667" transform="translate(19.607 0)"/>
+    </g>
+  </g>
+</svg>

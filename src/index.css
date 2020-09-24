@@ -1,0 +1,258 @@
+/* CSS Resets */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Main CSS */
+:root {
+  /* Colors: */
+  --unnamed-color-000000: #000000;
+  --unnamed-color-102f54: #102f54;
+  --unnamed-color-a22f47: #a22f47;
+  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-265083: #265083;
+  --unnamed-color-fea900: #fea900;
+  --unnamed-color-999999: #999999;
+  --unnamed-color-4d4d4d: #4d4d4d;
+  --unnamed-color-002142: #002142;
+  --unnamed-color-3fe1ff: #3fe1ff;
+  --unnamed-color-f800d1: #f800d1;
+  --unnamed-color-83f300: #83f300;
+  --unnamed-color-d43d5c: #d43d5c;
+  --unnamed-color-cccccc: #cccccc;
+
+  /* Font/text values */
+  --unnamed-font-family-raleway: Raleway;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-16: 16px;
+  --unnamed-character-spacing--0-32: -0.32px;
+  --unnamed-line-spacing-30-000001907348633: 30.000001907348633px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-raleway);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-30-000001907348633);
+  letter-spacing: var(--unnamed-character-spacing--0-32);
+  color: var(--unnamed-color-ffffff);
+}
+
+/********** Base CSS *************/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  /* color: #fff; */
+}
+button {
+  border: 0;
+  cursor: pointer;
+}
+button:focus {
+  outline: 0;
+}
+input {
+  border: 0;
+  margin: 0;
+}
+input:focus {
+  outline: 0;
+}
+/** Heading Elements **/
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+h6 {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.img-responsive {
+  width: 100%;
+}
+/** clearfix **/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+body {
+  /* font-family: var(--font-family-sans-serif); */
+  line-height: 1.5;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Raleway", sans-serif;
+  /* color: white; */
+}
