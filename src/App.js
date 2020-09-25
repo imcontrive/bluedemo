@@ -3,7 +3,7 @@ import "./App.scss";
 import "./fonts.css";
 import Header from "./components/header/Header";
 import PrimaryButton from "./components/buttons/PrimaryButton";
-import logo from "./images/basic_portrait_1.2-18.png";
+import logo from "./images/back_1.png";
 import logo2 from "./images/basic_portrait_2.2-19.png";
 import logo1 from "./images/basic_portrait_3.2-20.png";
 
