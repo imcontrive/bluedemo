@@ -28,8 +28,10 @@ export const Wrapper = styled.div`
   overflow: hidden;
   // border-radius: 14px;
   margin-top: 10px;
-  background-image: ${`url(${banner})`};
-  background-size: 100% 100%;
+  // background-image: ${`url(${banner})`};
+  background:  transparent linear-gradient(180deg, #0F2A4C 0%, #050F1B 100%) 0%
+    0% no-repeat padding-box;
+  // background-size: 100% 100%;
 
   // box-shadow: 5px 5px 20px 7px rgba(168, 168, 168, 1);
 `;
@@ -88,4 +90,15 @@ export const Code = styled.code`
   border-radius: 3px;
   margin: 0;
   padding: 0.2em 0.4em;
+`;
+
+export const CopyRight= styled.h5`
+  text-align: center;
+  color: #000000;
+  font-weight: 400 !important;
+  font-size: 14px;
+  text-transform: capitalize;
+      font: normal normal normal 12px/15px Raleway;
+
+
 `;

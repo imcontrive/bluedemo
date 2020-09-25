@@ -11,7 +11,8 @@ import Carousel from "./components/carousel/Carousel";
 import {
   Item,
   AppContainer,
-  ExtraInfo
+  ExtraInfo,
+  CopyRight
   // Code
 } from "./components/carousel/components";
 import FAQs from "./components/faq/FAQs";
@@ -339,7 +340,7 @@ console.log(docElem, "getViewportH", getViewportH())
               </li>
             </ul>
           </div>
-          <hr></hr>
+          {/* <hr></hr> */}
 
       
           <div className="how_to_install" data-scrollreveal="enter top over 3s after 0.5s">
@@ -389,6 +390,11 @@ console.log(docElem, "getViewportH", getViewportH())
             </div>
           </div> */}
 
+        </div>
+      </div>
+          <div className="lower_wrapper">
+
+
           <div className="faq__section" data-scrollreveal="enter top">
             <h5 className="text-center sub_heading" data-scrollreveal="enter left">Fangame Live FAQ</h5>
             <FAQs />
@@ -418,7 +424,7 @@ console.log(docElem, "getViewportH", getViewportH())
                 </li>
               </ul>
             </div>
-            <ul className="nav-items text-center" data-scrollreveal="enter bottom over 1s and move 300px after 0.3s">
+            <ul className="nav-items text-center" data-scrollreveal="enter right over 1s and move 300px after 0.3s">
               <li>Privacy Policy</li>
               <li>FAQ</li>
               <li>Contact Us</li>
@@ -426,8 +432,13 @@ console.log(docElem, "getViewportH", getViewportH())
               <li>Disclaimer</li>
             </ul>
           </footer>
-        </div>
-      </div>
+
+          <CopyRight>© Copyright 2015 FanPlay.©
+            {/* <br/>All rights reserved. */}
+            </CopyRight>
+
+          </div>
+
     </>
   );
 }

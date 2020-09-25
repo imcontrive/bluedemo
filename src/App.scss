@@ -9,13 +9,13 @@ $default_border_radius: 14px;
 $default-box-shadow: 0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.4);
 $default-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
-body{
-  background: url("./images/body-bg.png");
-  background-size: 100% 100%;
-}
-.primary_wrapper {
+// body{
   // background: url("./images/body-bg.png");
   // background-size: 100% 100%;
+// }
+.primary_wrapper {
+  background: url("./images/body-bg.png");
+  background-size: 100% 100%;
 
   .inner__wrapper {
     padding: $margin_from_div;
@@ -101,9 +101,8 @@ body{
     width: 100%;
     padding: $margin_from_div;
     // border: 3px solid green;
-    // background: transparent linear-gradient(180deg, #a22f47 0%, #511824 100%) 0%
-    //   0% no-repeat padding-box;
-
+    background:   transparent linear-gradient(180deg, #0F2A4C 0%, #050F1B 100%) 0%
+    0% no-repeat padding-box;
     // background: transparent linear-gradient(180deg, #2f1420 0, #4f1a29 100%);
 
     .sub_heading {
@@ -140,6 +139,9 @@ body{
     border-radius: $default_border_radius;
     margin-top: $margin_from_div;
     padding: $margin_from_div;
+    background:   transparent linear-gradient(180deg, #0F2A4C 0%, #050F1B 100%) 0%
+    0% no-repeat padding-box;
+    
 
     // height: 244px;
     // background: transparent linear-gradient(180deg, #a22f47 0%, #511824 100%) 0%
@@ -192,6 +194,9 @@ body{
     min-width: 344px;
     border-radius: $default_border_radius;
     width: 100%;
+    background:   transparent linear-gradient(180deg, #0F2A4C 0%, #050F1B 100%) 0%
+    0% no-repeat padding-box;
+    
     transition: box-shadow 0.25s ease, transform 0.25s ease,
       -webkit-transform 0.25s ease;
 
@@ -233,96 +238,7 @@ body{
     }
   }
 
-  /* Footer section
-  ----------------------*/
-  .footer_wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: $margin_from_div;
 
-
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-
-    // down_load_btn
-    .down_load_btn {
-      display: flex;
-      justify-content: center;
-    }
-
-    // footer_social_icons
-    .footer_social_icons {
-      padding: $margin_from_div 0px;
-
-
-      //icons_heading
-      .icons_heading {
-        color: #fea900;
-        letter-spacing: 0.75px;
-
-        small {
-          color: white;
-          margin-left: 4px;
-        }
-      }
-
-      //social_icons
-      .social_icons {
-        display: flex;
-        justify-content: center;
-
-        //_icon_
-        ._icon_ {
-          width: 40px;
-          height: 40px;
-          display: grid;
-          place-items: center;
-
-          background: white;
-          margin: 6px;
-          border-radius: 50%;
-
-          .fa-facebook {
-            color: #102f54;
-          }
-
-          .fa-twitter {
-            color: #03a9f4;
-          }
-          .fa-instagram {
-            color: #f65c2b;
-          }
-
-          .fa-youtube {
-            color: #e53935;
-          }
-        }
-
-        //_icon_: hover
-        ._icon_:hover {
-          cursor: pointer;
-          border: 2px solid #fea900;
-        }
-      }
-    }
-    //Footer nav-links
-    .nav-items {
-      // padding-bottom: $margin_from_div;
-      line-height: 1.5;
-      letter-spacing: 0px;
-      color: #fea900;
-      text-transform: capitalize;
-      font-size: 16px;
-
-      // links-> li
-      li {
-        margin-bottom: 4px;
-      }
-      li:hover {
-        cursor: pointer;
-      }
-    }
-  }
 }
 
 // Animation
@@ -370,23 +286,7 @@ body{
 //   clip-path: polygon(100% 12%, 100% 100%, 0 100%, 76% 66%);
 // }
 
-.faq__section {
-  width: 100%;
-  margin-top: $margin_from_div;
-  box-shadow: $default-box-shadow;
-  // background: transparent linear-gradient(180deg, #2f1420 0, #4f1a29 100%);
-  border-radius: $default_border_radius;
 
-  h5 {
-    padding-top: $margin_from_div;
-    font: normal normal normal 20px/25px Raleway;
-    font-weight: 400;
-  }
-
-  .title-text {
-    font-size: 12px;
-  }
-}
 
 // wave
 // .parent {
@@ -429,3 +329,130 @@ body{
 //     transform: rotate(360deg);
 //   }
 // }
+
+
+// lower_wrapper
+
+.lower_wrapper {
+  padding: $margin_from_div;
+  color: #000000;
+
+
+//faq__section
+  .faq__section {
+    width: 100%;
+    margin-top: $margin_from_div;
+    box-shadow: $default-box-shadow;
+    // background: transparent linear-gradient(180deg, #2f1420 0, #4f1a29 100%);
+    border-radius: $default_border_radius;
+  
+    h5 {
+      padding-top: $margin_from_div;
+      font: normal normal normal 20px/25px Raleway;
+      font-weight: 400;
+    }
+  
+    .title-text {
+      font-size: 12px;
+    }
+  }
+
+  // footer section
+  /* Footer section
+  ----------------------*/
+  .footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: $margin_from_div;
+
+    
+
+    // down_load_btn
+    .down_load_btn {
+      display: flex;
+      justify-content: center;
+    }
+
+    // footer_social_icons
+    .footer_social_icons {
+      padding: $margin_from_div 0px;
+
+
+      //icons_heading
+      .icons_heading {
+        // color: #fea900;
+        letter-spacing: 0.75px;
+
+        small {
+          // color: white;
+          margin-left: 4px;
+        }
+      }
+
+      //social_icons
+      .social_icons {
+        display: flex;
+        justify-content: center;
+
+        //_icon_
+        ._icon_ {
+          width: 40px;
+          height: 40px;
+          display: grid;
+          place-items: center;
+
+          // background: #102f54;
+          border: 1.25px solid #102f54;
+          margin: 6px;
+          border-radius: 50%;
+
+          .fa-facebook {
+            color: #102f54;;
+          }
+
+          .fa-twitter {
+            color: #03a9f4;
+          }
+          .fa-instagram {
+            color: #f65c2b;
+          }
+
+          .fa-youtube {
+            color: #e53935;
+          }
+        }
+
+        //_icon_: hover
+        ._icon_:hover {
+          cursor: pointer;
+          border: 2px solid #fea900;
+          transform: scale(1.25);
+          transition: all 150ms ease-in-out;
+        }
+      }
+    }
+    //Footer nav-links
+    .nav-items {
+      // padding-bottom: $margin_from_div;
+      line-height: 1.5;
+      letter-spacing: 0px;
+      // color: #fea900;
+      text-transform: capitalize;
+      font-size: 16px;
+
+      // links-> li
+      li {
+        margin-bottom: 4px;
+      }
+      li:hover {
+        cursor: pointer;
+        transform: scale(1.25);
+        transition: all 150ms ease-in-out;
+
+
+      }
+    }}
+
+
+}

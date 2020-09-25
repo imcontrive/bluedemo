@@ -33,7 +33,7 @@ export default class Accordion extends Component {
 
   render() {
     const sections = this.state.accordionItems.map(i => (
-      <div key={this.state.accordionItems.indexOf(i)}>
+      <div className="acc_wrapper" key={this.state.accordionItems.indexOf(i)}>
         <div className="title" onClick={() => this.handleClick(i)}>
           <div className="arrow-wrapper">
             <i
@@ -52,7 +52,7 @@ export default class Accordion extends Component {
               //   "content-text content-text-open" : "content-text"
               // }
             >
-              ${i.content}
+            {i.content}
             </div>
           ) : (
             ""
