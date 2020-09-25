@@ -9,16 +9,23 @@ $default_border_radius: 14px;
 $default-box-shadow: 0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.4);
 $default-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
-// body{
+body{
+  // height: 100vh;
+  // width: 100vw;
+  // position: fixed;
+  // z-index: -10000;
   // background: url("./images/body-bg.png");
+  // background-attachment: fixed;
   // background-size: 100% 100%;
-// }
+}
 .primary_wrapper {
   background: url("./images/body-bg.png");
-  background-size: 100% 100%;
+  // background-size: 100% 100%;
+  background-attachment: fixed;
+
 
   .inner__wrapper {
-    padding: $margin_from_div;
+    // padding: $margin_from_div;
     // max-width: 900px;
     // margin: 0 auto;
     // width: 100%;
@@ -69,7 +76,7 @@ $default-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   }
 
   .three_icons {
-    min-width: 360px;
+    min-width: 320px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -96,13 +103,15 @@ $default-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   }
 
   .how_to_play {
-    min-width: 344px;
+    min-width: 320px;
     border-radius: $default_border_radius;
     width: 100%;
     padding: $margin_from_div;
     // border: 3px solid green;
-    background:   transparent linear-gradient(180deg, #0F2A4C 0%, #050F1B 100%) 0%
+    background:   transparent linear-gradient(180deg, #002142 0%, #265082 100%) 0%
     0% no-repeat padding-box;
+    // background:   transparent linear-gradient(180deg, #0F2A4C 0%, #050F1B 100%) 0%
+    // 0% no-repeat padding-box;
     // background: transparent linear-gradient(180deg, #2f1420 0, #4f1a29 100%);
 
     .sub_heading {
@@ -135,7 +144,7 @@ $default-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   }
 
   .how_to_install {
-    min-width: 344px;
+    min-width: 320px;
     border-radius: $default_border_radius;
     margin-top: $margin_from_div;
     padding: $margin_from_div;
@@ -191,11 +200,16 @@ $default-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   .about_section {
     
     position: relative;
-    min-width: 344px;
+    min-width: 320px;
     border-radius: $default_border_radius;
     width: 100%;
-    background:   transparent linear-gradient(180deg, #102f54 0%, #265082 100%) 0%
+    // background:   transparent linear-gradient(180deg, #102f54 0%, #265082 100%) 0%
+    // 0% no-repeat padding-box;
+
+    background:   transparent linear-gradient(180deg, #002142 0%, #265082 100%) 0%
     0% no-repeat padding-box;
+
+    opacity: 80%;
     
     transition: box-shadow 0.25s ease, transform 0.25s ease,
       -webkit-transform 0.25s ease;
