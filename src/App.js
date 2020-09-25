@@ -9,7 +9,6 @@ import PrimaryButton from "./components/buttons/PrimaryButton";
 
 import logo from "./images/320x300_1.1-18.png";
 import logo2 from "./images/320x300_2.1-18.png";
-
 import logo1 from "./images/320x300_2.1-18.png";
 
 
@@ -349,7 +348,7 @@ console.log(docElem, "getViewportH", getViewportH())
           {/* <hr></hr> */}
 
       
-          <div className="how_to_install" data-scrollreveal="enter top over 3s after 0.5s">
+          <div className="how_to_install" data-scrollreveal="enter right over 3s after 0.5s">
             <h4 className="sub_heading  text-center">How To Install App</h4>
 
             <div className="flex-container ">
