@@ -9,7 +9,7 @@ import PrimaryButton from "./components/buttons/PrimaryButton";
 
 import logo from "./images/320x300_1.1-18.png";
 import logo2 from "./images/320x300_2.1-18.png";
-import logo1 from "./images/320x300_2.1-18.png";
+import logo1 from "./images/320x300_3.1-18.png";
 
 
 import Carousel from "./components/carousel/Carousel";
@@ -438,7 +438,7 @@ console.log(docElem, "getViewportH", getViewportH())
             </ul>
           </footer>
 
-          <CopyRight>© Copyright 2015 FanPlay.©
+          <CopyRight>© Copyright 2020 FanPlay.©
             {/* <br/>All rights reserved. */}
             </CopyRight>
 
