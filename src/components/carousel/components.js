@@ -14,7 +14,7 @@ export const Item = styled.div`
 
 export const CarouselContainer = styled.div`
   display: flex;
-  width: 100%;
+  // width: 100%;
   transition: ${props => (props.sliding ? "none" : "transform 1s ease")};
   transform: ${props => {
     if (!props.sliding) return "translateX(calc(-80% - 20px))";
