@@ -323,10 +323,10 @@ console.log(docElem, "getViewportH", getViewportH())
             <PrimaryButton />
           </div>
 
-          <div className="three_icons" data-scrollreveal="enter left">
-            <div className="icon icon1" data-scrollreveal="enter top"></div>
+          <div className="three_icons" data-scrollreveal="enter right">
+            <div className="icon icon1" data-scrollreveal="enter bottom"></div>
             <div className="icon icon2" data-scrollreveal="enter bottom"></div>
-            <div className="icon icon3" data-scrollreveal="enter top"></div>
+            <div className="icon icon3" data-scrollreveal="enter bottom"></div>
           </div>
 
           <div className="how_to_play" data-scrollreveal="enter right after 0.5s">
