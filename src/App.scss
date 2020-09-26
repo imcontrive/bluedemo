@@ -140,14 +140,14 @@ body{
     }
 
     .para {
-      text-align: left;
+      // text-align: left;
       // padding: $margin_from_div 40px;
       color: white;
       // font-weight: 200;
       // font-size: 14px;
       padding: $margin_from_div;
       // text-align: center;
-      font-size: 16px;
+      font-size: 12px;
       font-weight: 300;
       li {
         margin-bottom: 5px;
@@ -194,6 +194,8 @@ body{
     .sub-sec-heading {
       font: normal normal normal 16px/20px Raleway;
       color: #fefefe;
+      font-size: 12px;
+
 
     }
 
@@ -272,9 +274,9 @@ body{
     .para_space {
       padding: 0 40px;
       // text-align: center;
-      font-size: 16px;
+      font-size: 12px;
       font-weight: 300;
-      text-align: start;
+      text-align: center;
       // font-display:
 
       // font-weight: 200;
