@@ -496,21 +496,6 @@ Sign in using your phone number
             </ul>
           </footer>
 
-          <div className="outer">
-  <div className="inner">
-    
-    <div className="upper">
-    
-  </div>
-    
-    <div className="lower">
-    
-  </div>
-    
-  </div>
-  
-</div>
-
           <CopyRight>© Copyright 2020 FanPlay.©
             {/* <br/>All rights reserved. */}
             </CopyRight>
