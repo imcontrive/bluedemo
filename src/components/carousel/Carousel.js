@@ -15,6 +15,7 @@ const getOrder = ({ index, pos, numItems }) => {
 const initialState = { pos: 0, sliding: false, dir: NEXT };
 
 const Carousel = props => {
+  console.log(props,"props ccareee")
   const [state, dispatch] = React.useReducer(reducer, initialState);
 
   const numItems = React.Children.count(props.children);
@@ -54,6 +55,9 @@ const Carousel = props => {
   useEffect(() => {
     slideInInterval();
   }, []);
+
+  console.log(state,"state")
+
 
   return (
     <div {...handlers}>
