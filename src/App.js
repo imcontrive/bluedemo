@@ -25,6 +25,7 @@ import {
   // Code
 } from "./components/carousel/components";
 import FAQs from "./components/faq/FAQs";
+import ThreeBox from "./components/ThreeBox";
 
 const isReq = {"required": true};
 
@@ -311,10 +312,51 @@ console.log(docElem, "getViewportH", getViewportH())
 
   return (
     <>
-      <div className="primary_wrapper"> 
-        <Header />
+      <div className="primary_wrapper clearfix">
+
+
+
+      <Header />
+
+
+
+
+    <header className="site-header clearfix">
+ {/* <nav>
+  <div className="logo">
+   <h1>Modern Website</h1>
+  </div>
+  <div className="menu"> 
+   <ul>
+    <li>Home</li>
+    <li>Services</li>
+    <li>AboutUs</li>
+    <li>ContactUs</li>
+   </ul>
+  </div>
+ </nav> */}
+ <section className="hero_pannel">
+  <div className="leftside"> 
+   <img src={logo2}/>
+  </div>
+  <div className="rightside"> 
+   {/* <h3>Our Modern Website</h3> */}
+   <p> 
+   </p>
+   {/* <button>Download App</button> */}
+  </div>
+  
+ </section>
+
+</header>
+
+
+
+
+        <div className="is_primary_content">
+        <div className="mob-cara">
+
         <AppContainer>
-            {/* <div className="hero_text"></div> */}
             <Carousel title="Carousel">
               <Item img={logo} />
               <Item img={logo1} />
@@ -322,6 +364,7 @@ console.log(docElem, "getViewportH", getViewportH())
             </Carousel>
             <ExtraInfo></ExtraInfo>
           </AppContainer>
+        </div>
         <div className="inner__wrapper">
           
 
@@ -336,8 +379,10 @@ console.log(docElem, "getViewportH", getViewportH())
           </div>
 
           <div className="how_to_play what_we_do" data-scrollreveal="enter bottom after 0.5s">
+          <ThreeBox />
+
             {/* <h4 className="sub_heading text-center">What we do</h4> */}
-            <ul className="para">
+            {/* <ul className="para">
               <li className="what-we-do-box">
             <h5 className="sub_heading text-center">Live Quizzes</h5>
 
@@ -360,7 +405,7 @@ console.log(docElem, "getViewportH", getViewportH())
               </p>
 
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <div className="how_to_play" data-scrollreveal="enter right after 0.5s">
@@ -422,6 +467,7 @@ Sign in using your phone number
             </div> */}
           </div>
 
+
           <div className="about_section">
             {/* wavy background */}
             {/* <div className="wavy_wrapper">
@@ -437,27 +483,12 @@ Sign in using your phone number
             We bring micro-celebrities to host quizzes and interact with you. You can win real money by playing quirky quizzes on a wide variety of topics. Whether you are into Food, Fashion, Travelling, Gaming, a Bollywood Geek or Tech savvy, we have covered all kinds of quizzes. Answer 10 easy questions on live quiz and earn grand prizes. Play multiple quizzes everyday and earn more.
             </p>
           </div>
-
-          {/* <div class="parent">
-            <div class="wave-wrapper">
-              <p className="para_space ">
-                Vivamus facilisis arcu non cursus fringilla. Pellentesque
-                habitant morbi tristique senectus et netus et malesuada fames ac
-                turpis egestas. Cras quis ex faucibus, lacinia neque ac,
-                bibendum purus. Aenean ut ultrices nulla. Donec semper, felis
-                sed faucibus viverra, nibh quam viverra neque, eget viverra
-                augue mauris sed nulla.
-              </p>
-
-              <div class="wave"></div>
-            </div>
-          </div> */}
-
         </div>
       </div>
-          <div className="lower_wrapper">
+    </div>
 
 
+      <div className="lower_wrapper">
           <div className="faq__section" data-scrollreveal="enter top">
             <h5 className="text-center sub_heading" data-scrollreveal="enter left">Fangame Live FAQ</h5>
             <FAQs />
@@ -495,10 +526,15 @@ Sign in using your phone number
               {/* <li>Disclaimer</li> */}
             </ul>
           </footer>
-
           <CopyRight>© Copyright 2020 FanPlay.©
-            {/* <br/>All rights reserved. */}
             </CopyRight>
+
+         
+
+            {/* <section>
+              <div className="wave">
+              </div>
+            </section> */}
 
           </div>
 

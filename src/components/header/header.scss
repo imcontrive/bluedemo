@@ -137,6 +137,8 @@ a {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+
+
   .hamburger_menu li {
     float: left;
   }
@@ -151,4 +153,28 @@ a {
   .hamburger_menu .menu-icon {
     display: none;
   }
+}
+
+
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px) {
+
+  // .is-header-wrapper {
+  //   max-width: 900px;
+  //   width: 100%;
+  //   margin: 0 auto;
+  // }
+
+  .logo_container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  }
+  .logo_text{
+
+  }
+
 }
