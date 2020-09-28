@@ -9,6 +9,11 @@ $default_border_radius: 14px;
 $default-box-shadow: 0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.4);
 $default-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
+$primary-heading-size: 22px !important;
+$primary-heading-font-weight: 500 !important;
+$secondary-font-size: 17px !important;
+// $para-fonts-size: 19px;
+
 .primary_wrapper {
   background: url("./images/body-bg.png");
   background-attachment: fixed;
@@ -96,19 +101,28 @@ $default-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   .what_we_do {
     padding: $margin_from_div;
     margin:$margin_from_div 0px;
-    text-align: start;
-
+    // text-align: start;
+   
+    .para {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
 
     .what-we-do-box {
-    // box-shadow: $default-box-shadow;
-    margin: 12px 0px;
-    padding: 12px;
+    
+    // margin: 12px 0px;
+    margin-bottom: 12px !important;
+    padding: 0px 12px;
     border-radius: $default_border_radius;
 
 
     .sub_heading {
       margin-bottom: 6px;
     }
+    }
+    .what-we-do-box:last-child{
+      margin-bottom: 0px;
     }
 
   }
@@ -118,6 +132,8 @@ $default-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     border-radius: $default_border_radius;
     width: 100%;
     padding: $margin_from_div;
+    display: flex;
+    justify-content: center;
     // border: 3px solid green;
     background:   transparent linear-gradient(180deg, #002142 0%, #265082 100%) 0%
     0% no-repeat padding-box;
@@ -128,6 +144,7 @@ $default-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     .sub_heading {
       font: normal normal normal 20px/25px Raleway;
       font-weight: 400;
+      margin-bottom: 20px;
     }
 
     .para {
@@ -499,19 +516,51 @@ $default-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
 }
 
-@media (min-width: 320px){
-  .how_to_play, .how_to_install, .about_section, .faq__section, .icon {
-    border-radius: 0px;
-  }
-}
 
 
 
+// media query for desktop
 @media only screen   
 and (min-width: 1030px)   
 and (max-width: 1366px) {
   .primary_wrapper {
     width: 100%;
+    background: none;
+    // font-size: $para-fonts-size;
+
+    .what-we-do-box {
+      font-size: 18px;
+
+      h5 {
+        font-size: $primary-heading-size;
+        font-weight: $primary-heading-font-weight;
+      }
+      p {
+        text-align: center;
+      }
+    }
+
+    .about_section .sub_heading {
+      padding: 20px 0;
+    }
+
+    .how_to_install, .how_to_play, .about_section, .what_we_do {
+      padding: 40px !important;
+
+      .sub_heading {
+        font-size: $primary-heading-size;
+        font-weight: $primary-heading-font-weight;
+      }
+
+      .para {
+        font-size: $secondary-font-size;
+      }
+    }
+    .how_to_play {
+      h4 {
+      padding-top: 0px !important;
+    }
+  }
 
     .three_icons {
       // display: flex;
@@ -540,78 +589,84 @@ and (max-width: 1366px) {
   }
 
   .is_primary_content {
-    padding: $margin_from_div;
+    // padding: $margin_from_div;
   }
   .how_to_install {
     display: none;
   }
-
+  .para_space {
+    font-size: $secondary-font-size;
+    font-style: round($number: 12);
+    width: 78%;
+    margin: 0 auto;
+    margin-bottom: $margin_from_div !important;
+  }
   
    
 
-  section {
-    width: 100%;
-    height: 100%;
-    background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/74/68/4957bc61710d9ff.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-  }
+  // section {
+  //   width: 100%;
+  //   height: 100%;
+  //   background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/74/68/4957bc61710d9ff.jpg");
+  //   background-size: cover;
+  //   background-attachment: fixed;
+  // }
   
-  section .wave {
-    position: absolute;
-    width: 100%;
-    /*height from the svg file*/
-    height: 140px;
-    bottom: 0;
-    left: 0;
-    background: url("https://d3o3obo12bi5zc.cloudfront.net/assets/waves/sep-wave-orange-dark-66f81137568d9d7a50628d6929388109145e88daf66d0b47db4c4acc29cde6bb.svg");
-    animation: waves 10s linear infinite;
-  }
+  // section .wave {
+  //   position: absolute;
+  //   width: 100%;
+  //   /*height from the svg file*/
+  //   height: 140px;
+  //   bottom: 0;
+  //   left: 0;
+  //   background: url("https://d3o3obo12bi5zc.cloudfront.net/assets/waves/sep-wave-orange-dark-66f81137568d9d7a50628d6929388109145e88daf66d0b47db4c4acc29cde6bb.svg");
+  //   animation: waves 10s linear infinite;
+  // }
   
-  section .wave:before {
-    content:'';
-    width: 100%;
-    height: 140px;
-    background: url("https://d3o3obo12bi5zc.cloudfront.net/assets/waves/sep-wave-orange-dark-66f81137568d9d7a50628d6929388109145e88daf66d0b47db4c4acc29cde6bb.svg");
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    opacity: 0.4;
-    animation: waves-reverse 10s linear infinite;
-  }
+  // section .wave:before {
+  //   content:'';
+  //   width: 100%;
+  //   height: 140px;
+  //   background: url("https://d3o3obo12bi5zc.cloudfront.net/assets/waves/sep-wave-orange-dark-66f81137568d9d7a50628d6929388109145e88daf66d0b47db4c4acc29cde6bb.svg");
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 0;
+  //   opacity: 0.4;
+  //   animation: waves-reverse 10s linear infinite;
+  // }
   
-  section .wave:after {
-    content:'';
-    width: 100%;
-    height: 140px;
-    background: url("https://d3o3obo12bi5zc.cloudfront.net/assets/waves/sep-wave-orange-dark-66f81137568d9d7a50628d6929388109145e88daf66d0b47db4c4acc29cde6bb.svg");
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    opacity: 0.6;
-    animation-delay: -5s;
-    animation: waves 20s linear infinite;
-  }
+  // section .wave:after {
+  //   content:'';
+  //   width: 100%;
+  //   height: 140px;
+  //   background: url("https://d3o3obo12bi5zc.cloudfront.net/assets/waves/sep-wave-orange-dark-66f81137568d9d7a50628d6929388109145e88daf66d0b47db4c4acc29cde6bb.svg");
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 0;
+  //   opacity: 0.6;
+  //   animation-delay: -5s;
+  //   animation: waves 20s linear infinite;
+  // }
   
   
-  @keyframes waves {
-    0% {
-      background-position: 0;
-    }
-    100% {
-      /* from width of the svg file */
-      background-position: 1600px;
-    }
-  }
+  // @keyframes waves {
+  //   0% {
+  //     background-position: 0;
+  //   }
+  //   100% {
+  //     /* from width of the svg file */
+  //     background-position: 1600px;
+  //   }
+  // }
   
-  @keyframes waves-reverse {
-    0% {
-      background-position: 1600px;
-    }
-    100% {
-      background-position: 0;
-    }
-  }
+  // @keyframes waves-reverse {
+  //   0% {
+  //     background-position: 1600px;
+  //   }
+  //   100% {
+  //     background-position: 0;
+  //   }
+  // }
 }
 
 
@@ -635,9 +690,132 @@ and (max-width: 1366px) {
 // }
 
 
+
+// Media query for small screens
 @media only screen and (max-device-width: 480px) {
 
   .site-header {
     display: none;
+  }
+}
+
+
+.temp_wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  background-color: linear-gradient(90deg, rgba(2, 0, .6, 1) 0%, rgba(9,9,3,0.5) 35%, rgba(9,9,121,1)  50%);
+
+  h2 {
+    font-family: serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .box div{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    // border: 4px solid red;
+  }
+
+  .box div:nth-child(1){
+    top: 88%;
+    left: 42%;
+    animation: animate 20s linear infinite;
+    background-image: url("./images/floating/bulb.svg");
+    background-size: 100% 100%; 
+  }
+
+  .box div:nth-child(2){
+    top: 22%;
+    left: 54%;
+    animation: animate 45s linear infinite;
+    background-image: url("./images/floating/brain.svg");
+    background-size: 100% 100%; 
+  }
+
+  .box div:nth-child(3){
+    top: 72%;
+    left: 12%;
+    animation: animate 26s linear infinite;
+    background-image: url("./images/floating/cup\ \(1\).svg");
+    background-size: 100% 100%; 
+  }
+  .box div:nth-child(4){
+    top: 78%;
+    left: 32%;
+    animation: animate 27s linear infinite;
+    background-image: url("./images/floating/question\ mark.svg");
+    background-size: 100% 100%; 
+  }
+  .box div:nth-child(5){
+    top: 72%;
+    left: 72%;
+    animation: animate 29s linear infinite;
+    background-image: url("./images/floating/ribbon.svg");
+    background-size: 100% 100%; 
+  }
+
+  .box div:nth-child(6){
+    top: 92%;
+    left: 42%;
+    animation: animate 25s linear infinite;
+    background-image: url("./images/floating/brain.svg");
+    background-size: 100% 100%; 
+  }
+  .box div:nth-child(7){
+    top: 62%;
+    left: 14%;
+    animation: animate 30s linear infinite;
+    background-image: url("./images/floating/bulb.svg");
+    background-size: 100% 100%; 
+  }
+  .box div:nth-child(8){
+    top: 22%;
+    left: 44%;
+    animation: animate 27s linear infinite;
+  }
+  .box div:nth-child(9){
+    top: 42%;
+    left: 49%;
+    animation: animate 29s linear infinite;
+  }
+  .box div:nth-child(10){
+    top: 72%;
+    left: 32%;
+    animation: animate 29s linear infinite;
+  }
+  .box div:nth-child(11){
+    top: 92%;
+    left: 29%;
+    animation: animate 29s linear infinite;
+  }
+
+
+
+}
+
+
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(0) rotate(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.5) translateY(0px) translateX(-180px) rotate(360deg);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1.5) translateY(0px) translateX(180px) rotate(360deg);
+    opacity: 1;
   }
 }

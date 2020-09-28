@@ -14,6 +14,7 @@ import logo1 from "./images/320x300_3.1-18.png";
 import hti from "./images/htw-01.jpeg";
 import hti1 from "./images/htw-02.jpeg";
 import hti2 from "./images/htw-03.jpeg";
+import bann from "./images/quiz screen.svg"
 
 
 import Carousel from "./components/carousel/Carousel";
@@ -26,6 +27,7 @@ import {
 } from "./components/carousel/components";
 import FAQs from "./components/faq/FAQs";
 import ThreeBox from "./components/ThreeBox";
+
 
 const isReq = {"required": true};
 
@@ -313,9 +315,6 @@ console.log(docElem, "getViewportH", getViewportH())
   return (
     <>
       <div className="primary_wrapper clearfix">
-
-
-
       <Header />
 
 
@@ -337,9 +336,11 @@ console.log(docElem, "getViewportH", getViewportH())
  </nav> */}
  <section className="hero_pannel">
   <div className="leftside"> 
-   <img src={logo2}/>
+   <img src={bann} />
   </div>
   <div className="rightside"> 
+    <div class="bannner1"></div>
+    <div class="banner2"></div>
    {/* <h3>Our Modern Website</h3> */}
    <p> 
    </p>
@@ -379,38 +380,29 @@ console.log(docElem, "getViewportH", getViewportH())
           </div>
 
           <div className="how_to_play what_we_do" data-scrollreveal="enter bottom after 0.5s">
-          <ThreeBox />
+          {/* <ThreeBox /> */}
 
             {/* <h4 className="sub_heading text-center">What we do</h4> */}
-            {/* <ul className="para">
+             <ul className="para text-center">
               <li className="what-we-do-box">
-            <h5 className="sub_heading text-center">Live Quizzes</h5>
-
-                <p> Interactive video quizzes with easy questions from known content. Answer fast!</p>
+                  <h5 className="sub_heading text-center">Live Quizzes</h5>
+                  <p> Interactive video quizzes with easy questions from known content. Answer fast!</p>
               </li>
               <li className="what-we-do-box">
-              <h5 className="sub_heading text-center">Win Real Money</h5>
-              <p>
-              Winners get paid directly to Wallet or Bank Account within 24 hours
-
-
-              </p>
-
+                <h5 className="sub_heading text-center">Win Real Money</h5>
+                <p>Winners get paid directly to Wallet or Bank Account within 24 hours</p>
               </li>
               <li className="what-we-do-box">
-              <h5 className="sub_heading text-center">Local Celebrities</h5>
-              <p> 
-
-              We bring your favorite people to host quizzes and interact with you.
-              </p>
-
+                < h5 className="sub_heading text-center">Local Celebrities</h5>
+                <p>We bring your favorite people to host quizzes and interact with you.</p>
               </li>
-            </ul> */}
+            </ul>
           </div>
 
           <div className="how_to_play" data-scrollreveal="enter right after 0.5s">
-            <h4 className="sub_heading text-center">How To Play</h4>
             <ul className="para ">
+            <h4 className="sub_heading text-center">How To Play</h4>
+
 
 
               <li>
@@ -528,6 +520,60 @@ Sign in using your phone number
           </footer>
           <CopyRight>© Copyright 2020 FanPlay.©
             </CopyRight>
+
+
+           <div className="temp_wrapper">
+             <h2 className="">Animated Heading</h2>
+
+            <div className="box">
+
+
+            <div>
+            
+              
+              </div>
+
+              <div>
+              
+              </div>
+
+              <div>
+              
+              </div>
+
+              <div>
+              
+              </div>
+
+              <div>
+              
+              </div>
+
+              <div>
+              
+              </div>
+              <div>
+              
+              </div>
+
+              <div>
+              
+              </div>
+
+              <div>
+              
+              </div>
+
+              <div>
+              
+              </div>
+
+              <div>
+              
+              </div>
+            </div>
+           </div>
+
 
          
 

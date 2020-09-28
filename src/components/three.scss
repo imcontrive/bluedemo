@@ -131,7 +131,26 @@
     .rightside{ 
         // width: 55%; 
         height: 300px; 
-        color: white; text-align: center; margin-top: 80px; padding: 40px;}
+        color: white; text-align: center; margin-top: 80px; padding: 40px;
+    .banner1 {
+        width: 100px;
+        height: 100px;
+        background-image: url('../images/win\ screen.svg');
+        background-size: 100% 100%;
+
+    }
+    .banner2 {
+        position: absolute;
+        transform: translateY(45deg);
+        width: 100px;
+        height: 100px;
+        background-image: url("../images/quiz\ screen.svg");
+        background-size: 100% 100%;
+    }
+    
+    
+    
+    }
     
     .rightside h1{ text-align: center;
         color: #ffffff;
