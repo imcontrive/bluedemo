@@ -159,22 +159,15 @@ a {
 @media only screen   
 and (min-width: 1030px)   
 and (max-width: 1366px) {
-
-  // .is-header-wrapper {
-  //   max-width: 900px;
-  //   width: 100%;
-  //   margin: 0 auto;
-  // }
-
   .logo_container{
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  // display: flex;
+  // justify-content: space-between;
   }
-  .logo_text{
+  // .logo_text{
 
-  }
+  // }
 
 }

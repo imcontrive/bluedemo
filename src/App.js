@@ -3,9 +3,7 @@ import "./App.scss";
 import "./fonts.css";
 import Header from "./components/header/Header";
 import PrimaryButton from "./components/buttons/PrimaryButton";
-// import logo from "./images/basic_portrait_1.2-18.png";
-// import logo2 from "./images/basic_portrait_2.2-19.png";
-// import logo1 from "./images/basic_portrait_3.2-20.png";
+
 
 import logo from "./images/320x300_1.1-18.png";
 import logo2 from "./images/320x300_2.1-18.png";
@@ -314,45 +312,31 @@ console.log(docElem, "getViewportH", getViewportH())
 
   return (
     <>
-      <div className="primary_wrapper clearfix">
-      <Header />
+      <div className="primary_wrapper">
+        <Header />
+        <header className="site-header">
+          <section className="hero_pannel">
+            <div className="leftside"> 
+              <h2 className="heading_text">
+                Live Quiz <br/> Easy Money
+              </h2>
 
+              <h5 className="sub_heading_text">
+                {/* Play Quizzes with real money<br /> and win cash daily! */}
+                <br /> 
+                All you need to do is download the App <br /> 
+                and play fun quiz games on Fangame.Live
+              </h5>
 
-
-
-    <header className="site-header clearfix">
- {/* <nav>
-  <div className="logo">
-   <h1>Modern Website</h1>
-  </div>
-  <div className="menu"> 
-   <ul>
-    <li>Home</li>
-    <li>Services</li>
-    <li>AboutUs</li>
-    <li>ContactUs</li>
-   </ul>
-  </div>
- </nav> */}
- <section className="hero_pannel">
-  <div className="leftside"> 
-   <img src={bann} />
-  </div>
-  <div className="rightside"> 
-    <div class="bannner1"></div>
-    <div class="banner2"></div>
-   {/* <h3>Our Modern Website</h3> */}
-   <p> 
-   </p>
-   {/* <button>Download App</button> */}
-  </div>
-  
- </section>
-
-</header>
-
-
-
+            </div> 
+            <div className="rightside">
+              <div class="banner1"></div>
+              <div class="banner2"></div>
+              <p> 
+              </p>
+            </div>
+          </section>
+        </header>
 
         <div className="is_primary_content">
         <div className="mob-cara">
@@ -522,9 +506,8 @@ Sign in using your phone number
             </CopyRight>
 
 
-           <div className="temp_wrapper">
+           {/* <div className="temp_wrapper">
              <h2 className="">Animated Heading</h2>
-
             <div className="box">
 
 
@@ -572,18 +555,8 @@ Sign in using your phone number
               
               </div>
             </div>
-           </div>
-
-
-         
-
-            {/* <section>
-              <div className="wave">
-              </div>
-            </section> */}
-
-          </div>
-
+           </div> */}
+      </div>
     </>
   );
 }

@@ -1,8 +1,6 @@
 .accordion {
-  // box-shadow: 0px 13px 23px -13px rgba(0, 0, 0, 0.5);
   width: 100%;
   background-color: transparent;
-  // margin-bottom: 20px;
   font-family: "Raleway" !important;
   padding: 20px;
 }
@@ -11,30 +9,20 @@
 .acc_wrapper{
   border-radius: 14px;
   margin: 6px 0px; 
-box-shadow: 0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.4);
-min-height: 40px;
-border-radius: 12px;
-padding: 6px 0px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.4);
+  min-height: 40px;
+  border-radius: 12px;
+  padding: 6px 0px;
 }
 
 .title {
   display: flex;
   align-items: center;
   width: 100%;
-  // background-color: rgba(0, 0, 0, 0.4);
-  // color: #ffddcc;
-  // color: #fea900;
   letter-spacing: 1px;
-  // font-weight: lighter;
-  // border-radius: 14px;
   margin: 6px 0px;
   padding-left: 20px;
   transition: all 0.2s ease-in;
-// box-shadow: 0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.4);
-// min-height: 40px;
-
-  // box-shadow: 0px 13px 23px -13px rgba(0, 0, 0, 0.5);
-
 }
 
 .title-text {
@@ -43,11 +31,9 @@ padding: 6px 0px;
 
 .title:hover {
   cursor: pointer;
-  // background-color: rgba(70, 31, 31, 0.5);
 }
 
 .title:active {
-  // background-color: rgba(0, 0, 0, 0.55);
 }
 
 .content {
@@ -56,12 +42,6 @@ padding: 6px 0px;
   color: #000000;
   padding: 0 20px;
   font-size: 12px;
-  // background: #fea900;
-  // font-weight: lighter;
-
-  text-align: center;
-  // z-index: 1000;
-  // margin-top: -30px;
   text-align: left;
   transition: all 200ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
@@ -69,31 +49,20 @@ padding: 6px 0px;
 .content-open {
   margin-top: 0px;
   height: 200px;
-  // border: 1px solid hotpink;
   background-color: rgba(0, 0, 0, 0.3);
   transition: all 350ms cubic-bezier(0.08, 1.09, 0.32, 1.275);
 }
 
 .content-text {
-  // padding: 15px;
-  // visibility: hidden;
   opacity: 0;
   overflow: auto;
   transition: all 0.2s ease-in;
   padding-left: 20px;
 }
 
-// .content-text-open {
-//   visibility: visible !important;
-//   opacity: 1;
-//   transition: all 0.8s ease-in;
-// }
 
 .fa-angle-down {
-  // border: 2px solid green;
   font-size: 16px;
-  // color: rgba(255, 255, 255, 0.5);
-  // color: #fea900;
   transition: all 0.6s cubic-bezier(0.08, 1.09, 0.32, 1.275);
 }
 
@@ -101,20 +70,7 @@ padding: 6px 0px;
   color: rgb(99, 33, 33);
 }
 
-.arrow-wrapper {
-  // position: absolute;
-  // margin: 0 10px;
-  // border: 1px solid gold;
-  // margin-left: 375px;
-}
-
-
 // media queries for small screen
-
-// only screen and (max-width:320px){
-
-// }
-
 @media (min-width: 320px){
   
 }
