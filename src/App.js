@@ -497,7 +497,10 @@ Sign in using your phone number
             <ul className="nav-items text-center" data-scrollreveal="enter right over 1s and move 300px after 0.3s">
               <li>Privacy Policy</li>
               {/* <li>FAQ</li> */}
-              <li>Contact Us</li>
+              <li><a
+            target="_blank"
+            href="mailto:hello@fangame.live"
+            >Contact us</a></li>
               <li>Legal</li>
               {/* <li>Disclaimer</li> */}
             </ul>
